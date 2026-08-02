@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedDroneAssembler</defName>
+		<label>Automated drone assembler</label>
+		<description>Build a fully automated assembly line capable of mass-producing various drone types. While requiring substantial power and cooling, it operates much faster than manual construction.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>2.90</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VQE_Dronetech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

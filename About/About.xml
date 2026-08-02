@@ -18,6 +18,7 @@
 		<li>vanillaexpanded.vcooke</li>
 		<li>dankpyon.medieval.overhaul</li>
 		<li>ferny.nofactoryfloorrequirement</li>
+		<li>vanillaquestsexpanded.dronefactory</li>
 	</loadAfter>
 	<modDependencies>
 		<li>

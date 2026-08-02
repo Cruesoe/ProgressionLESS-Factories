@@ -411,4 +411,120 @@
     </value>
 </Operation>
 
+
+<!-- recipes -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyGravlite"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAlloyForge</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyBronze"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAlloyForge</li>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeHighExplosiveShells" or
+        defName="VFEFactory_MakeIncendiaryShells" or
+        defName="VFEFactory_MakeEMPShells" or
+        defName="VFEFactory_MakeFirefoamShells" or
+        defName="VFEFactory_MakeSmokeShells" or
+        defName="VFEFactory_MakeToxShells" or
+        defName="VFEFactory_MakeTarShells" or
+        defName="VFEFactory_MakeShrapnelShells" or
+        defName="VFEFactory_MakeArmorPiercingShells" or
+        defName="VFEFactory_MakeClusterShells" or
+        defName="VFEFactory_MakeDeadlifeShells"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAmmunitionPress</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_AssembleComponent" or
+        defName="VFEFactory_AssembleAdvancedComponent"
+    ]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAssembler</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeChemfuelFromWood" or
+        defName="VFEFactory_MakeChemfuelFromOrganics" or
+        defName="VFEFactory_MakeChemfuelFromRedWood" or
+        defName="VFEFactory_MakeChemfuelFromMushroomWood" or
+        defName="VFEFactory_MakeChemfuelFromCanola" or
+        defName="VFEFactory_AstrofuelFromChemfuel"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedBiofuelRefinery</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeBeerFromHops" or
+        defName="VFEFactory_MakeWhiskeyFromCorn" or
+        defName="VFEFactory_MakeTequilaFromAgave" or
+        defName="VFEFactory_MakeVodkaFromPotatoes" or
+        defName="VFEFactory_MakeGinFromBerries" or
+        defName="VFEFactory_MakeSoda" or
+        defName="VFEFactory_MakeSakeFromRice" or
+        defName="VFEFactory_MakeChocoLiquor" or
+        defName="VFEFactory_MakeCoffeeLiquor"
+    ]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedDistillery</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeStoneBlocks"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedMasonrySaw</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakePemmican" or
+        defName="VFEFactory_MakeSurvivalMeal" or
+        defName="VFEFactory_MakeSimpleSoup"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_ConveyorOven</li>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeMedicine" or
+        defName="VFEFactory_SynthesizeFlake" or
+        defName="VFEFactory_SynthesizeYayo" or
+        defName="VFEFactory_BrewPsychiteTea" or
+        defName="VFEFactory_SynthesizeGoJuice" or
+        defName="VFEFactory_SynthesizePenoxycyline" or
+        defName="VFEFactory_SynthesizeWakeUp" or
+        defName="VFEFactory_SynthesizeAntibiotics" or
+        defName="VFEFactory_SynthesizeAgePills"
+    ]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_MedicineGranulator</li>
+    </value>
+</Operation>
+
 </Patch>
