@@ -1,35 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Progression: Factories</name>
-	<author>ferny</author>
-	<packageId>ferny.progressionfactories</packageId>
-	<supportedVersions>
-		<li>1.6</li>
-	</supportedVersions>
-	<description>Research overhaul for factories.</description>
-	<loadAfter>
-		<li>Ludeon.Rimworld</li>
-		<li>Ludeon.Rimworld.Royalty</li>
-		<li>Ludeon.Rimworld.Ideology</li>
-		<li>Ludeon.Rimworld.Biotech</li>
-		<li>Ludeon.Rimworld.Anomaly</li>
-		<li>Ludeon.Rimworld.Odyssey</li>
-		<li>vanillaexpanded.vfefactory</li>
-		<li>vanillaexpanded.vcooke</li>
-		<li>dankpyon.medieval.overhaul</li>
-		<li>ferny.nofactoryfloorrequirement</li>
-		<li>vanillaquestsexpanded.dronefactory</li>
-	</loadAfter>
-	<modDependencies>
-		<li>
-			<packageId>ferny.nofactoryfloorrequirement</packageId>
-			<displayName>No Factory Floor Requirement</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3687039048</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>vanillaexpanded.vfefactory</packageId>
-			<displayName>Vanilla Furniture Expanded - Factory</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3686924415</steamWorkshopUrl>
-		</li>
-	</modDependencies>
+  <name>ProgressionLESS: Factories</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.progressionlessfactories</packageId>
+  <modVersion>260929</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>All the Progression goodness, less research.
+
+Overhauls factory research, so each Vanilla Furniture Expanded - Factory machine has a place in the research tree.
+
+The "LESS" is less research: Progression: Factories adds up to 21 research projects depending on your mods. This fork groups them into at most 5: Automated extraction, Automated food production and Automated crafting after Fabrication, then Factory processing and Factory manufacturing after Conveyor belts. The factory booster and heatsink return to Underground conveyor belts. Every machine stays at the same stage, and still needs the other research it did before.
+
+Forked from Progression: Factories by ferny.
+Huge thanks to ferny for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
+
+For a really good modpack, check out The Progression Modpack on the Steam Workshop.</description>
+  <modDependencies>
+    <li>
+      <packageId>ferny.nofactoryfloorrequirement</packageId>
+      <displayName>No Factory Floor Requirement</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3687039048</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>vanillaexpanded.vfefactory</packageId>
+      <displayName>Vanilla Furniture Expanded - Factory</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3686924415</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <incompatibleWith>
+    <li>ferny.progressionfactories</li>
+  </incompatibleWith>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+    <li>vanillaexpanded.vfefactory</li>
+    <li>vanillaexpanded.vcooke</li>
+    <li>dankpyon.medieval.overhaul</li>
+    <li>ferny.nofactoryfloorrequirement</li>
+    <li>vanillaquestsexpanded.dronefactory</li>
+  </loadAfter>
 </ModMetaData>
