@@ -1,0 +1,28 @@
+[h1]ProgressionLESS: Factories[/h1]
+[b]All the Progression goodness, less research.[/b]
+
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3690565613]Progression: Factories[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]What it does[/h2]
+[list]
+[*]Overhauls factory research, so each Vanilla Furniture Expanded - Factory machine has a place in the research tree.
+[*]Automated machines follow Fabrication, and the larger factory machines follow VFE Factory's basic factories.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Factories adds up to [b]21 research projects[/b] depending on your mods. This fork groups them into [b]at most 5[/b]:
+[list]
+[*][b]After Fabrication:[/b] Automated extraction, Automated food production, Automated crafting
+[*][b]After basic factories:[/b] Factory processing, Factory manufacturing
+[/list]
+The factory booster and heatsink return to Underground conveyor belts. Every machine stays at the same stage, and still needs the other research it did before. The research sits in one tidy column beside VFE Factory's own projects.
+
+[h2]Compatibility[/h2]
+Keeps all of the original's mod support:
+[list]
+[*]Vanilla Furniture Expanded - Factory and No Factory Floor Requirement (both required)
+[*]Medieval Overhaul
+[*]VQE Drone Factory
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]
