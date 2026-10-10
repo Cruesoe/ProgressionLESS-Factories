@@ -15,7 +15,7 @@ Progression: Factories adds up to [b]21 research projects[/b] depending on your 
 [*][b]After Fabrication:[/b] Automated extraction, Automated food production, Automated crafting
 [*][b]After basic factories:[/b] Factory processing, Factory manufacturing
 [/list]
-The factory booster and heatsink return to Underground conveyor belts. Every machine stays at the same stage, and still needs the other research it did before. The research sits in one tidy column beside VFE Factory's own projects.
+The factory booster and heatsink return to Underground conveyor belts. Every machine stays at the same stage, and still needs the other research it did before. The research sits in a compact block beside VFE Factory's own projects.
 
 [h2]Compatibility[/h2]
 Keeps all of the original's mod support:

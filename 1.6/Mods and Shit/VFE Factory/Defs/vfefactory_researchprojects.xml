@@ -9,8 +9,8 @@
 		<description>Build automated machines that extract and refine raw materials: the automated smelter, drill platform, heavy-duty saw and biofuel refinery.</description>
 		<baseCost>2500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>8.00</researchViewX>
-		<researchViewY>5.35</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>7.30</researchViewY>
 		<tab>VanillaExpanded</tab>
 		<prerequisites>
 			<li>Fabrication</li>
@@ -23,8 +23,8 @@
 		<description>Build automated machines that grow, catch and process food, such as the automated farmer and automated mincer.</description>
 		<baseCost>2500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>8.00</researchViewX>
-		<researchViewY>6.00</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>7.95</researchViewY>
 		<tab>VanillaExpanded</tab>
 		<prerequisites>
 			<li>Fabrication</li>
