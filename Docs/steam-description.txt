@@ -1,9 +1,8 @@
-[h1]ProgressionLESS: Factories[/h1]
 [b]All the Progression goodness, less research.[/b]
 
 [i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3690565613]Progression: Factories[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
 
-[h2]What it does[/h2]
+[h2]Features[/h2]
 [list]
 [*]Overhauls factory research, so each Vanilla Furniture Expanded - Factory machine has a place in the research tree.
 [*]Automated machines follow Fabrication, and the larger factory machines follow VFE Factory's basic factories.
@@ -26,3 +25,5 @@ Keeps all of the original's mod support:
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Factories for this fork in an existing save can lose research progress. Start a new game when you switch.
