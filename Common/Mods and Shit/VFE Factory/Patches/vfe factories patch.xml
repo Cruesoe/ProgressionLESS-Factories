@@ -333,18 +333,26 @@
 
 <!-- recipes -->
 
-<Operation Class="PatchOperationReplace">
+<!-- VFE Factory only adds the gravlite alloy with Odyssey and the bronze alloy with VFE Classical -->
+
+<Operation Class="PatchOperationConditional">
     <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyGravlite"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
-    <value>
-        <li>Ferny_AutomatedAssembler</li>
-    </value>
+    <match Class="PatchOperationReplace">
+        <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyGravlite"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+        <value>
+            <li>Ferny_AutomatedAssembler</li>
+        </value>
+    </match>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
+<Operation Class="PatchOperationConditional">
     <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyBronze"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
-    <value>
-        <li>Ferny_AutomatedAssembler</li>
-    </value>
+    <match Class="PatchOperationReplace">
+        <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyBronze"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+        <value>
+            <li>Ferny_AutomatedAssembler</li>
+        </value>
+    </match>
 </Operation>
 
 
